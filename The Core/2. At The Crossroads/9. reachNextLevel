@@ -1,0 +1,4 @@
+def solution(experience, threshold, reward):
+    if threshold <= (experience + reward):
+        return True
+    return False
